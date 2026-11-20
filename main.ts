@@ -28,6 +28,11 @@ if (bytes.length < 33 || bytes.readUInt32BE(16) !== 1024
     || bytes.readUInt32BE(20) !== 1024) {
   throw new Error('entry.png is not a 1024 by 1024 PNG');
 }
+// The gate caps the file at 1 MiB: refuse an oversized image here
+// rather than letting the entry be rejected as invalid.
+if (bytes.length > 1048576) {
+  throw new Error('entry.png is over the 1 MiB cap');
+}
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 mkdirSync(outDir, { recursive: true });
