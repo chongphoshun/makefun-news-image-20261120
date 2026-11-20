@@ -4,12 +4,12 @@
 [![rank](https://make.fun/badge/news-image-20261120/chongphoshun/makefun-news-image-20261120/rank.svg)](https://make.fun/bounty/news-image-20261120/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 [![reward](https://make.fun/badge/news-image-20261120/chongphoshun/makefun-news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 
-One image summing up the world's news of Friday 20 November 2026. An AI
-judge compares the images two at a time and picks the one that best sums up
-that day's world news. This front page carries 42 verified stories: 3 leads,
+One image summing up the world's news of Friday 20 November 2026. The
+judge sees two images at a time and picks the one that best sums up its
+day's world news. This front page carries 42 verified stories: 3 leads,
 12 main stories, a numbered world map, a BY THE NUMBERS strip and 27 briefs.
 
-## The day's three leads
+## Friday's three leads
 
 1. **Trump, Xi, Putin sign peace pact** — First-ever trilateral; 4-point
    declaration signed.
@@ -18,7 +18,7 @@ that day's world news. This front page carries 42 verified stories: 3 leads,
 3. **GTA VI: record $2.36bn day one** — Sensor Tower estimates $2.36bn in
    day-one sales. (Estimate, not an official Take-Two figure.)
 
-## The twelve main stories
+## Twelve more stories
 
 4. **Cyclone Akvan hits India's east coast** — Landfall near Gopalpur;
    300,000 evacuated in Odisha.
@@ -66,13 +66,14 @@ Australian man charged with terror offences after Sydney raid.
 Sources: Reuters, AP, BBC, UN News, NASA, IMD, Save the Children — 20 Nov
 2026. Full links in SOURCES.md. Disputed claims are attributed.
 
-## How it works
+## How the entry works
 
-`main.ts` (Node 22, standard library only) copies `entry.png` (1024×1024,
+`main.ts` (Node 22, stdlib only) writes `entry.png` (1024×1024,
 191 KB) to `/output/entry.png`. The image was drawn with PIL by
 `draw_news_image_20261120.py` (flat vector-style illustrations, no AI
-text). Run it locally with:
+text). To try it:
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+mkdir -p out
+MAKEFUN_OUTPUT_DIR=out node main.ts
 ```

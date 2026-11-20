@@ -1,14 +1,14 @@
 # Sources — news-image-20261120
 
 All facts in the image were checked against reporting of 19–20 Nov 2026.
-Links below are the exact URLs returned by search; nothing was invented.
+Every link below is the exact URL search returned; nothing here was invented.
 Stories dated 19 Nov are events first reported or confirmed on 20 Nov,
 which the competition counts as the day's news. Two claims are
 deliberately phrased as estimates or allegations: the GTA VI sales
 figure is a Sensor Tower estimate, not an official Take-Two figure,
 and the claims against Alice Huang are alleged, not proven.
 
-## Leads
+## The leads
 
 ### 1. Trump, Xi and Putin sign 4-point peace declaration (Shenzhen, 19 Nov)
 - https://www.thetimes.com/world/asia/article/trump-xi-putin-summit-shenzhen-latest-news-ddskr7pcx
@@ -40,7 +40,7 @@ and the claims against Alice Huang are alleged, not proven.
   PlayStation, 25% Xbox. Pre-orders alone ~$1.65bn. Take-Two has not
   released official figures.)
 
-## Main stories
+## The main stories
 
 ### 4. Cyclone Akvan hits India's east coast (landfall 20 Nov, dawn)
 - https://sambadenglish.com/latest-news/cyclone-akvan-landfall-process-begins-as-storm-hits-gopalpur-in-odisha-12825258
@@ -147,7 +147,7 @@ and the claims against Alice Huang are alleged, not proven.
   concurrent resolution — not legally binding. The US–Israel vs Iran war
   began 28 Feb 2026.)
 
-## Briefs (27)
+## The briefs (27)
 
 1. Israel strikes Hezbollah missile site in Lebanon's Bekaa Valley (19 Nov) — https://www.waltontribune.com/news/national/israel-says-it-struck-at-hezbollah-iraq-compromises-with-a-militia-group-and-other-mideast/article_6550be97-1500-5327-a1d9-995451d38bb9.html
 2. IDF demolishes Hamas tunnel crossing Gaza's Yellow Line (19 Nov) — https://israelrealtime.com/2026/11/19/trump-weighs-strikes-on-iran-idf-reports-operations-in-lebanon-and-gaza/
